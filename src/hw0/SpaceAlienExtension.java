@@ -27,7 +27,12 @@ package hw0;
     
     @Override
     public void doGreeting() {
-        System.out.println("Greetings I am now in" + newHome);
+        System.out.println("Greetings I am now in " + newHome);
+    }
+
+    public static void main(String[] args) {
+        SpaceAlien descoladan = new SpaceAlienExtension("Lusitania", 42, "Jupiter");
+        descoladan.doGreeting();
     }
     
 
